@@ -20,12 +20,13 @@ button {
 }
 
 #save-btn {
-    background: darkred;
+    background: darkgreen;
 }
 
 h1 {
     margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 h2 {
