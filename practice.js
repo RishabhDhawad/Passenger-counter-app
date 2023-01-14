@@ -1,3 +1,7 @@
+// This is my JavaScript Practice file, here I have practiced all the JavaScript
+// before applying on the main file
+// This file is not linked with the orignal project
+
 //1. String in JS
 
 let username = "rishabh"
@@ -54,6 +58,20 @@ welcomeEl.innerText = greeting2 + name2
 
 //6. Add an emoji to the end! 
 // WRITE YOUR CODE BELOW HERE
-// HINT: count = count + 1
+// HINT: count += 1
 
 welcomeEl.innerText = welcomeEl.innerText + "👋"
+
+// 7. Grab the save-el paragrah and store it in a variable called saveEl
+
+let saveEl = document.getElementById("save-el")
+console.log(saveEl)
+// 8. Create a variable that contains both the count and the dash separator, i.e. "12 - "
+
+function save() {
+// 9. Render the variable in the saveEl using innerText
+    let countStr = count + " - "
+    saveEl.innerText += countStr
+// 10 NB: Make sure to not delete the existing content of the paragraph
+    console.log(count)
+}

@@ -4,16 +4,19 @@
     </head>
     <body>
         <p id="welcome-el"></p>
-
-        <h1> People Entered: </h1>
-        <h2 id="count-el"> 0 </h2>
+        <div class ="container">
+            <h2> People Entered: </h2>
+            <h2 id="count-el"> 0 </h2>
     
-        <!-- Creating Increment Button -->
-        <button id="increment-btn" onclick="increment()"> INCREMENT </button>
+            <!-- Creating Increment Button -->
+            <button id="increment-btn" onclick="increment()"> INCREMENT </button>
         
-        <!-- Creating a SAVE button -->
-        <button id="save-btn" onclick="save()">SAVE</button>
+            <!-- Creating a SAVE button -->
+            <button id="save-btn" onclick="save()">SAVE</button>
 
+            <!-- Saving Entries  -->
+            <h2><p id="save-el"> Previous Entries: </p></h2>
+        </div>
         <script src ="index.js"></script>
     </body>
 </html>
